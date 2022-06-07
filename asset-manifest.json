@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ciao-app/static/css/main.093c4888.css",
-    "main.js": "/ciao-app/static/js/main.9b3f3c5d.js",
+    "main.js": "/ciao-app/static/js/main.85a9e503.js",
     "static/css/854.4c9b713c.chunk.css": "/ciao-app/static/css/854.4c9b713c.chunk.css",
     "static/js/854.8796de76.chunk.js": "/ciao-app/static/js/854.8796de76.chunk.js",
     "static/css/309.8b85b131.chunk.css": "/ciao-app/static/css/309.8b85b131.chunk.css",
@@ -14,7 +14,7 @@
     "static/media/loader.svg": "/ciao-app/static/media/loader.692827c560ed18d1d908eb81b1e7bfc5.svg",
     "index.html": "/ciao-app/index.html",
     "main.093c4888.css.map": "/ciao-app/static/css/main.093c4888.css.map",
-    "main.9b3f3c5d.js.map": "/ciao-app/static/js/main.9b3f3c5d.js.map",
+    "main.85a9e503.js.map": "/ciao-app/static/js/main.85a9e503.js.map",
     "854.4c9b713c.chunk.css.map": "/ciao-app/static/css/854.4c9b713c.chunk.css.map",
     "854.8796de76.chunk.js.map": "/ciao-app/static/js/854.8796de76.chunk.js.map",
     "309.8b85b131.chunk.css.map": "/ciao-app/static/css/309.8b85b131.chunk.css.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.093c4888.css",
-    "static/js/main.9b3f3c5d.js"
+    "static/js/main.85a9e503.js"
   ]
 }
