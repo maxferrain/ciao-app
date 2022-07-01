@@ -9,7 +9,7 @@ const FOLLOWING_IS_FETCHING = 'FOLLOWING-IS-FETCHING'
 
 const initialState = {
     users: [],
-    totalUsersCount: 20,
+    totalUsersCount: null,
     pageSelected: 1,
     usersOnPage: 12,
     portionSize: 10,

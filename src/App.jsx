@@ -11,7 +11,7 @@ import {Loader} from "./components/common/Loader/Loader";
 import withSuspend from "./hoc/withSuspend";
 
 const DialogsContainer = React.lazy(() => import('./components/Dialogs/DialogsContainer'))
-const UsersContainer = React.lazy(() => import('./components/Users/UsersContainer'))
+const UsersContainer = React.lazy(() => import('./components/Users/Users'))
 
 const DialogsSuspended = withSuspend(DialogsContainer)
 const UsersSuspended = withSuspend(UsersContainer)
@@ -19,7 +19,7 @@ const UsersSuspended = withSuspend(UsersContainer)
 const App = (props) => {
     useEffect(() => {
         props.initializeApp()
-    })
+    }, [])
 
     return (
         <>

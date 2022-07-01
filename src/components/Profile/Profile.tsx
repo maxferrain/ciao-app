@@ -10,7 +10,8 @@ const Profile = (props: any) => {
             !props.profile
                 ? <Loader/>
                 : <div>
-                    <ProfileInfo profile={props.profile} status={props.status} setMyStatus={props.setMyStatus}/>
+                    <ProfileInfo profile={props.profile} status={props.status} setMyStatus={props.setMyStatus}
+                                 isOwner={props.isOwner} savePhoto={props.savePhoto} saveProfile={props.saveProfile}/>
                     <MyPosts posts={props.posts} addPost={props.addPost}/>
                 </div>
         }

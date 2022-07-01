@@ -6,7 +6,6 @@ import {Formik} from "formik";
 
 
 const MyPosts = React.memo((props: any) => {
-    console.log('RENDER')
 
     const postsElements =
         [...props.posts]
